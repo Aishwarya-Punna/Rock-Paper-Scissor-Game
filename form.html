@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+   
+    <title>Form </title>
+</head>
+<body>
+    
+    <form >
+        <h2> User Registration Form</h2>
+        <div class="forms"> 
+        <label for="fName"> Full Name: </label> <br>
+        <input type="text" id="fName" placeholder="Enter your full name"  size="100">   <br>
+        
+
+        <label for="email"> Email Address: </label><br>
+        <input type="email" id="email" placeholder="Enter your email" size="100"> <br>
+        
+
+        <label type="password">Password:</label><br>
+        <input type="password" id="password" placeholder="Enter your password" size="100"><br>
+        
+
+        <label for="confirmpwd"> confirm Password:</label><br>
+        <input type="password" id="confirmpwd" placeholder="Re-enter password" size="100"> <br>
+        
+
+        <label for="DOB" >Date of Birth:</label><br>
+        <input type="date" id="DOB" placeholder="dd/mm/yyyy" size="100"><br>
+        
+
+        <label for="file" size="100"> Profile Picture:</label><br>
+        
+        <input  type="file" id="file" placeholder="Choose file" size="100" > <br>
+        
+
+        <label for="textarea"> Comments/Feedback: </label><br> 
+        <textarea name="feedback" rows="10" cols="94" placeholder="Leave your comments here"  ></textarea><br>
+        
+
+        <label for="Subcription"> Newsletter Subscription: </label><br>
+        <select id="Subscriptions" name="Subscriptions"  ><br>
+          <option value="Monthly" >Monthly</option>
+          <option value="Quaterly">Quaterly</option>
+          <option value="Semi-Annually">Semi-Annually</option>
+          <option value="Annually">Annually</option>
+        </select> <br>
+        
+
+        <input type="checkbox"> <br>
+    
+        <label for="T&C" >I agree to the <u>Terms and Conditions</u></label><br>
+        
+
+        <button  type="button" onclick="alert('Yor are Redistering')"> Register</button>
+        <button type="button" > Reset</button>
+
+    </div>
+   
+    </form>   
+    </body>
+</html>

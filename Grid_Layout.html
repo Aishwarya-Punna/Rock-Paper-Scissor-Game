@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        .grid-container{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 50px 50px 50px 50px 50px;
+            background-color: white;
+            gap: 3px 3px;
+            text-decoration-color: white;
+            color: white;
+        }
+
+        .grid-container> div{
+            
+            background-color: green; 
+            text-align: left  ;
+        }
+        .item1{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+        .item2{
+            grid-row-start: 2;
+            grid-row-end: 6;
+        }
+        .item4{
+            grid-column:3/ 5 ;
+        }
+
+        .item5{
+            grid-column: 2/4;
+        }
+        .item10{
+            grid-column: 2/ 5;
+        }
+        .item3{
+            grid-column: 2/3;
+        }
+        .item7{
+            grid-column: 2/3;
+        }
+        .item8{
+            grid-column: 3/4;
+        }
+        .item9{
+            grid-column: 4/5;
+        }
+
+
+        
+    </style>
+
+</head>
+<body>
+    <div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>
+        <div class="item9">9</div>
+        <div class="item10">10</div>
+    </div>
+</body>
+</html>

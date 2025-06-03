@@ -1,0 +1,44 @@
+
+
+.box-1{
+    
+        border: 3px dashed orange;
+        background: lightyellow;
+        text-align: justify;
+        margin-left: 400px;
+        width:400px;
+        height: 100px;
+        padding:10px;
+        padding-left: 10px;
+   }
+
+.box-2{
+        background: lightblue;
+        border-top:5px double darkolivegreen;
+        border-bottom:5px double darkolivegreen;
+        margin-left:100px;
+        width:400px;
+        height: 120px;
+        text-align: justify;
+        padding: 10px;
+}
+.box-3{
+        background: burlywood;
+       
+        
+        height: 120px;
+        width:600px;
+        margin-left: 530px;
+        direction: right;
+        text-align: justify;
+        padding:10px;
+        
+        
+         box-shadow: inset 5px 5px  sienna,inset -5px -5px  sienna;
+         border: 5px solid sandybrown ;
+}
+
+.container{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px; }
