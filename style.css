@@ -159,7 +159,8 @@
     left: 477px;
     animation: none;
     position: absolute;
-    font-size:xx-large;
+    font-weight: 700px;
+    font-size: 68px;
     top:329px;
 
 }
@@ -183,8 +184,8 @@
     position:absolute;
     left: 713px;
     top: 329px;
-    font-size: xx-large;
-}
+    font-weight: 700px;
+    font-size: 68px;}
 #scissor:hover{
     transition: tranform 2s ease;
     transform: scale(1.2);
@@ -202,7 +203,8 @@
     border: 16px solid #FFA943;
     top: 553px;
     left: 650px;
-    font-size: xx-large;
+    font-weight: 700px;
+    font-size: 68px;
     animation: none;
     position: absolute;
     
