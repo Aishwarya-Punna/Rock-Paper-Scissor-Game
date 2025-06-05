@@ -117,7 +117,7 @@
     top: 150px;
     border: 0cap;
     margin: 0%;
-    left:609px;
+    left:629px;
 }
 
  #rectConn5{
@@ -126,7 +126,7 @@
     background-color:#000000A3;
     position: relative;
     top:245px;
-    left:735px;
+    left:755px;
     border-radius: 2px;
     border: 0cap;
     margin: 0%;
@@ -159,8 +159,8 @@
     left: 477px;
     animation: none;
     position: absolute;
-    font-weight: 700px;
-    font-size: 68px;
+    font-weight: 600px;
+    font-size: 60px;
     top:329px;
 
 }
@@ -182,10 +182,11 @@
     margin-left: 100px;
     animation: none;
     position:absolute;
-    left: 713px;
+    left: 733px;
     top: 329px;
-    font-weight: 700px;
-    font-size: 68px;}
+    font-weight: 600px;
+    font-size: 60px;
+}
 #scissor:hover{
     transition: tranform 2s ease;
     transform: scale(1.2);
@@ -202,9 +203,9 @@
     border-radius: 50%;
     border: 16px solid #FFA943;
     top: 553px;
-    left: 650px;
-    font-weight: 700px;
-    font-size: 68px;
+    left: 670px;
+    font-weight: 600px;
+    font-size: 60px;
     animation: none;
     position: absolute;
     
