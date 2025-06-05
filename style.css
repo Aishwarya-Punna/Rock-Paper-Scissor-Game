@@ -329,7 +329,7 @@ outline: 15px solid  #3B6720;
 box-shadow: 0 0 0 30px  #1DA82BC9, 0 0 0 45px  #2E9A2563 ;
 position: relative;
 left:323px;
-top:200px;
+top:150px;
 transition: transform 0.3s ease-in-out;
 font-size: xx-large;
 display: block;
@@ -350,7 +350,7 @@ display: block;
     font-size:xx-large;
     position: relative;
     left:900px;
-    bottom:120px;
+    bottom:150px;
 }
 
 
@@ -362,7 +362,7 @@ display: block;
     display: block;
     position: relative;
     left:625px;
-    bottom:310px;
+    bottom:360px;
     width: 200px;
     height: 36px;
     font-weight: 600;
@@ -379,7 +379,7 @@ display: block;
     display: block;
     position: relative;
     left:590px;
-    bottom:370px;
+    bottom:420px;
     width: 290px;
     height: 36px;
     font-weight: 600;
@@ -400,7 +400,7 @@ display: block;
     letter-spacing: 10%;
     position: relative;
     left:675px;
-    bottom:420px;
+    bottom:470px;
     display: block;
 }
 
@@ -421,8 +421,8 @@ display: block;
     transform: scale(5px);
     cursor: pointer; 
     position: relative;
-    left:970px;
-    bottom: 300px;
+    left:1400px;
+    bottom: 350px;
     
 }
 
@@ -440,8 +440,8 @@ display: block;
     line-height: 100%;
     letter-spacing: 10%;
     position: relative;
-    left:990px;
-    bottom:300px;
+    left:1450px;
+    bottom:350px;
 
 }
 
