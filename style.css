@@ -121,12 +121,12 @@
 }
 
  #rectConn5{
-    width:138px;
+    width:218px;
     height: 20px;
     background-color:#000000A3;
     position: relative;
-    top:210px;
-    left:780px;
+    top:165px;
+    left:700px;
     border-radius: 2px;
     border: 0cap;
     margin: 0%;
@@ -135,14 +135,14 @@
 } 
 
 #rectConn6{
-    width:165px;
+    width:218px;
     height: 20px;
     background-color:#000000A3;
     position:relative;
-    top: 194px;
+    top: 153px;
     border: 0cap;
     margin: 0%;
-    left:560px;
+    left:581px;
     border-radius: 2px;
     transform: rotate(60deg);
 } 
@@ -156,12 +156,13 @@
     align-content: center;
     border-radius: 50%;
     border:16px solid #0074B6;
-    left: 497px;
+    left: 575px;
     animation: none;
     position: absolute;
     /* font-weight: 500px; */
     font-size: 50px;
-    top:299px;
+    top:290px;
+    z-index: 1000;
 
 }
 #rock:hover{
@@ -182,10 +183,11 @@
     margin-left: 100px;
     animation: none;
     position:absolute;
-    left: 753px;
+    left: 710px;
     top: 299px;
     /* font-weight: 500px; */
     font-size: 50px;
+    z-index: 1000;
 }
 #scissor:hover{
     transition: tranform 2s ease;
@@ -202,12 +204,13 @@
     align-content: center;
     border-radius: 50%;
     border: 16px solid #FFA943;
-    top: 523px;
+    top: 490px;
     left: 690px;
     /* font-weight: 500px; */
     font-size: 50px;
     animation: none;
     position: absolute;
+    z-index: 1000;
     
 }
 #paper:hover{
