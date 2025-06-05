@@ -114,10 +114,10 @@
     height: 15px;
     background-color:  #000000A3;
     position: relative;
-    top: 150px;
+    top: 130px;
     border: 0cap;
     margin: 0%;
-    left:629px;
+    left:649px;
 }
 
  #rectConn5{
@@ -125,8 +125,8 @@
     height: 15px;
     background-color:#000000A3;
     position: relative;
-    top:245px;
-    left:755px;
+    top:225px;
+    left:775px;
     border-radius: 2px;
     border: 0cap;
     margin: 0%;
@@ -139,10 +139,10 @@
     height: 15px;
     background-color:#000000A3;
     position:relative;
-    top: 230px;
+    top: 210px;
     border: 0cap;
     margin: 0%;
-    left:545px;
+    left:565px;
     border-radius: 2px;
     transform: rotate(55deg);
 } 
@@ -156,12 +156,12 @@
     align-content: center;
     border-radius: 50%;
     border:16px solid #0074B6;
-    left: 477px;
+    left: 497px;
     animation: none;
     position: absolute;
-    font-weight: 600px;
+    font-weight: 500px;
     font-size: 60px;
-    top:329px;
+    top:309px;
 
 }
 #rock:hover{
@@ -182,9 +182,9 @@
     margin-left: 100px;
     animation: none;
     position:absolute;
-    left: 733px;
-    top: 329px;
-    font-weight: 600px;
+    left: 753px;
+    top: 309px;
+    font-weight: 500px;
     font-size: 60px;
 }
 #scissor:hover{
@@ -202,9 +202,9 @@
     align-content: center;
     border-radius: 50%;
     border: 16px solid #FFA943;
-    top: 553px;
-    left: 670px;
-    font-weight: 600px;
+    top: 533px;
+    left: 690px;
+    font-weight: 500px;
     font-size: 60px;
     animation: none;
     position: absolute;
