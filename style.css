@@ -135,7 +135,7 @@
 } 
 
 #rectConn6{
-    width:155px;
+    width:162px;
     height: 15px;
     background-color:#000000A3;
     position:relative;
@@ -144,7 +144,7 @@
     margin: 0%;
     left:565px;
     border-radius: 2px;
-    transform: rotate(50deg);
+    transform: rotate(60deg);
 } 
 
 #rock{
