@@ -423,8 +423,8 @@ display: block;
     transform: scale(5px);
     cursor: pointer; 
     position: relative;
-    left:1400px;
-    bottom: 300px;
+    left:1300px;
+    bottom: 200px;
     font-size: 25px;
     
 }
@@ -443,8 +443,8 @@ display: block;
     line-height: 100%;
     letter-spacing: 10%;
     position: relative;
-    left:1450px;
-    bottom:300px;
+    left:1350px;
+    bottom:200px;
     font-size: 25px;
     text-align: center;
 
