@@ -149,8 +149,8 @@
 
 #rock{
     background-color: white;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     align-items: center;
     text-align: center;
     align-content: center;
@@ -160,7 +160,7 @@
     animation: none;
     position: absolute;
     /* font-weight: 500px; */
-    font-size: 50px;
+    font-size: 40px;
     top:290px;
     z-index: 1000;
 
@@ -173,8 +173,8 @@
 
 #scissor{
     background-color: white;
-    width:100px;
-    height: 100px;
+    width:90px;
+    height: 90px;
     align-items: center;
     text-align: center;
     align-content: center;
@@ -186,7 +186,7 @@
     left: 710px;
     top: 299px;
     /* font-weight: 500px; */
-    font-size: 50px;
+    font-size: 40px;
     z-index: 1000;
 }
 #scissor:hover{
@@ -197,8 +197,8 @@
 
 #paper {
     background-color:  white;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     align-items: center;
     text-align: center;
     align-content: center;
@@ -207,7 +207,7 @@
     top: 490px;
     left: 690px;
     /* font-weight: 500px; */
-    font-size: 50px;
+    font-size: 40px;
     animation: none;
     position: absolute;
     z-index: 1000;
