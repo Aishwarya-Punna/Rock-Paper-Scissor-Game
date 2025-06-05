@@ -110,56 +110,57 @@
 }
 
 #rectConn4{
-    width:100px;
-    height: 10px;
-    background-color:#252525;
+    width:198px;
+    height: 15px;
+    background-color:  #000000A3;
     position: relative;
-    top: 0px;
+    top: 150px;
     border: 0cap;
     margin: 0%;
-    left:399px;
+    left:609px;
 }
 
  #rectConn5{
-    width:82px;
-    height: 10px;
-    background-color:#252525;
+    width:143px;
+    height: 15px;
+    background-color:#000000A3;
     position: relative;
-    top:50px;
-    left:449px;
+    top:245px;
+    left:735px;
     border-radius: 2px;
     border: 0cap;
     margin: 0%;
-    transform: rotate(120deg);
+    transform: rotate(130deg);
     
 } 
 
 #rectConn6{
-    width:90px;
-    height: 10px;
-    background-color:#252525;
+    width:145px;
+    height: 15px;
+    background-color:#000000A3;
     position:relative;
-    top: 36px;
+    top: 230px;
     border: 0cap;
     margin: 0%;
-    left:368px;
+    left:545px;
     border-radius: 2px;
-    transform: rotate(60deg);
+    transform: rotate(55deg);
 } 
 
 #rock{
     background-color: white;
-    width: 40px;
-    height: 40px;
+    width: 110px;
+    height: 110px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border:5px solid rgb(56, 138, 171);
-    margin-left: 350px;
+    border:16px solid #0074B6;
+    left: 477px;
     animation: none;
     position: absolute;
-    top:200px;
+    font-size:xx-large;
+    top:329px;
 
 }
 #rock:hover{
@@ -170,19 +171,19 @@
 
 #scissor{
     background-color: white;
-    width:40px;
-    height: 40px;
+    width:110px;
+    height: 110px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border: 5px solid blueviolet;
+    border: 16px solid #BD00FF;
     margin-left: 100px;
     animation: none;
     position:absolute;
-    left: 406px;
-    bottom: 170px;
-    transform: rotate(90deg);
+    left: 713px;
+    top: 329px;
+    font-size: xx-large;
 }
 #scissor:hover{
     transition: tranform 2s ease;
@@ -192,15 +193,16 @@
 
 #paper {
     background-color:  white;
-    width: 40px;
-    height: 40px;
+    width: 110px;
+    height: 110px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border: 5px solid orange;
-    margin-top: 110px;
-    margin-left: 428px;
+    border: 16px solid #FFA943;
+    top: 553px;
+    left: 650px;
+    font-size: xx-large;
     animation: none;
     position: absolute;
     
