@@ -122,10 +122,10 @@
 
  #rectConn5{
     width:138px;
-    height: 15px;
+    height: 20px;
     background-color:#000000A3;
     position: relative;
-    top:212px;
+    top:210px;
     left:780px;
     border-radius: 2px;
     border: 0cap;
@@ -135,14 +135,14 @@
 } 
 
 #rectConn6{
-    width:162px;
-    height: 15px;
+    width:165px;
+    height: 20px;
     background-color:#000000A3;
     position:relative;
-    top: 195px;
+    top: 194px;
     border: 0cap;
     margin: 0%;
-    left:565px;
+    left:560px;
     border-radius: 2px;
     transform: rotate(60deg);
 } 
@@ -202,7 +202,7 @@
     align-content: center;
     border-radius: 50%;
     border: 16px solid #FFA943;
-    top: 513px;
+    top: 523px;
     left: 690px;
     /* font-weight: 500px; */
     font-size: 50px;
