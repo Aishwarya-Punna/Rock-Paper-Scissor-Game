@@ -2,12 +2,13 @@
     background-color: #8CC461;
 }
  .header{
-    height: 125px;
-    width: 450px;
+    height: 158px;
+    width: 800px;
     border: 2px solid  white;
-    border-radius: 5px;
+    border-radius: 13px;
     position: relative;
-    margin-left: 200px;
+    left: 240px;
+    top:62px;
     margin-right: 200px;
     padding: 5px;
 
@@ -1402,6 +1403,6 @@ transition: transform 0.5s;
 }
 
 
-body{
+/* body{
     overflow: hidden;
-}
+} */
