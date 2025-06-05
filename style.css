@@ -349,7 +349,7 @@ display: block;
     animation: none;
     font-size:45px;
     position: relative;
-    left:900px;
+    left:950px;
     bottom:150px;
 }
 
@@ -424,7 +424,7 @@ display: block;
     cursor: pointer; 
     position: relative;
     left:1200px;
-    bottom: 460px;
+    bottom: 450px;
     font-size: 25px;
     
 }
@@ -444,7 +444,7 @@ display: block;
     letter-spacing: 10%;
     position: relative;
     left:1250px;
-    bottom:460px;
+    bottom:450px;
     font-size: 25px;
     text-align: center;
 
