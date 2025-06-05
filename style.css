@@ -110,41 +110,41 @@
 }
 
 #rectConn4{
-    width:198px;
-    height: 15px;
+    width:218px;
+    height: 20px;
     background-color:  #000000A3;
     position: relative;
-    top: 130px;
+    top: 110px;
     border: 0cap;
     margin: 0%;
-    left:649px;
+    left:629px;
 }
 
  #rectConn5{
-    width:143px;
+    width:138px;
     height: 15px;
     background-color:#000000A3;
     position: relative;
-    top:225px;
-    left:775px;
+    top:212px;
+    left:780px;
     border-radius: 2px;
     border: 0cap;
     margin: 0%;
-    transform: rotate(130deg);
+    transform: rotate(120deg);
     
 } 
 
 #rectConn6{
-    width:145px;
+    width:155px;
     height: 15px;
     background-color:#000000A3;
     position:relative;
-    top: 210px;
+    top: 195px;
     border: 0cap;
     margin: 0%;
     left:565px;
     border-radius: 2px;
-    transform: rotate(55deg);
+    transform: rotate(50deg);
 } 
 
 #rock{
@@ -159,9 +159,9 @@
     left: 497px;
     animation: none;
     position: absolute;
-    font-weight: 500px;
-    font-size: 60px;
-    top:309px;
+    /* font-weight: 500px; */
+    font-size: 50px;
+    top:299px;
 
 }
 #rock:hover{
@@ -183,9 +183,9 @@
     animation: none;
     position:absolute;
     left: 753px;
-    top: 309px;
-    font-weight: 500px;
-    font-size: 60px;
+    top: 299px;
+    /* font-weight: 500px; */
+    font-size: 50px;
 }
 #scissor:hover{
     transition: tranform 2s ease;
@@ -202,10 +202,10 @@
     align-content: center;
     border-radius: 50%;
     border: 16px solid #FFA943;
-    top: 533px;
+    top: 513px;
     left: 690px;
-    font-weight: 500px;
-    font-size: 60px;
+    /* font-weight: 500px; */
+    font-size: 50px;
     animation: none;
     position: absolute;
     
@@ -424,7 +424,7 @@ display: block;
 }
 
 #winRules:hover, #winRules:active{
-     transition:transfrom 2s ease;
+    transition:transfrom 2s ease;
     transform: scale(1.2);
 }
 #next{
@@ -904,7 +904,7 @@ display: block;
 }
 
 #winRules1:hover, #winRules1:active{
-     transition:transfrom 2s ease;
+    transition:transfrom 2s ease;
     transform: scale(1.2);
 }
 #next1{
