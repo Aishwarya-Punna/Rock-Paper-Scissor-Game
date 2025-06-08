@@ -224,15 +224,17 @@
     text-align: center;
     align-items: center;
     align-content: center;
-    border: 2px solid white;
+    border: 5px solid white;
     border-radius: 5px;
     font-weight: 100 bolder;
-    height: 25px;
+    height: 50px;
     transform: scale(5px);
     cursor: pointer; 
     position: fixed;
-    bottom: 3px;
+    bottom: 5px;
     right:10px;
+    font-size: 25px;
+    font-weight: 200;
 } 
 
 #rules:hover,  #rules:active{
@@ -914,7 +916,7 @@ font-size: 45px;
     cursor: pointer; 
     position: relative;
     left:1200px;
-    bottom: 450px;
+    bottom: 420px;
     font-size: 25px;
     /* display: block; */
 }
@@ -934,7 +936,7 @@ font-size: 45px;
     letter-spacing: 10%;
     position: relative;
     left:1250px;
-    bottom:450px;
+    bottom:420px;
     font-size: 25px;
     font-weight: 200;
     /* display: block; */
@@ -1054,7 +1056,7 @@ font-size: 45px;
     cursor: pointer; 
     position: relative;
     left:1200px;
-    bottom: 250px;
+    bottom: 300px;
     font-size: 25px;
     /* display: block; */
 }
@@ -1074,7 +1076,7 @@ font-size: 45px;
     letter-spacing: 10%;
     position: relative;
     left:1250px;
-    bottom:250px;
+    bottom:300px;
     font-size: 25px;
     font-weight: 200;
     /* display: block; */
@@ -1118,7 +1120,6 @@ font-size: 45px;
     position: relative;
     left:950px;
     bottom:150px;
-    font-size:xx-large;
     display: block;
     font-size: 45px;
 
