@@ -244,7 +244,7 @@
 }
 
 .gameSetUp{
-    display: none;
+    display: block;
 }
 .gameSetUpExceptRules{
     display: block;
@@ -637,7 +637,7 @@ display: block;
 }
 
 .hurray{
-    display: block;
+    display: none;
 }
 
 #youPickedPaper{
