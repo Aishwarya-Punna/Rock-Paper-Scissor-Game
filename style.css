@@ -410,7 +410,6 @@ display: block;
     bottom:470px;
     display: block;
     font-size: 40px;
-    font-weight: 600;
 }
 
 #winPlayAgain:hover{
@@ -724,7 +723,6 @@ display: block;
     bottom:520px;
     display: block;
     font-size: 40px;
-    font-weight: 600;
     
 }
 
@@ -803,7 +801,6 @@ display: block;
     left:620px;
     bottom:400px;
     font-size: 40px;
-    font-weight: 600;
     display: block;
 }
 
@@ -889,7 +886,7 @@ font-size: 45px;
     
 }
 #winPlayAgain1{
-    color: #252525;
+     color: #252525;
     background-color: white;
     font-family: 'roboto',sans-serif;
     text-align: center;
@@ -904,7 +901,6 @@ font-size: 45px;
     bottom:470px;
     display: block;
     font-size: 40px;
-    font-weight: 600;
 }
 
 #winPlayAgain1:hover{
@@ -1043,7 +1039,6 @@ font-size: 45px;
     left:620px;
     bottom:350px;
     font-size: 40px;
-    font-weight: 600;
     display: block;
 }
 
@@ -1342,7 +1337,6 @@ display: block;
     bottom:540px;
     font-size: 40px;
     display: block;
-    font-weight: 600;
     
 }
 
@@ -1442,7 +1436,6 @@ transition: transform 0.5s;
     bottom:400px;
     display: block;
     font-size: 40px;
-    font-weight: 600;
     
 }
 
