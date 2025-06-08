@@ -244,7 +244,7 @@
 }
 
 .gameSetUp{
-    display: block;
+    display: none;
 }
 .gameSetUpExceptRules{
     display: block;
@@ -502,13 +502,13 @@ display: block;
     color: #FFD233;
     font-size:100px;
     position: relative;
-    left: 700px;
+    left: 557px;
     align-items: center;
     align-content: center;
     text-align: center;
-    top: 100px;
-    width: 100px;
-    height: 100px;
+    top: 189px;
+    width: 200px;
+    height: 201px;
 }
 
 #star1{
@@ -516,31 +516,32 @@ display: block;
     font-size: 50px;
     animation: none;
     position: relative;
-    bottom: 250px;
-    left: 620px;
+    bottom: 150px;
+    left: 500px;
+    
 }
 #star2{
     color:white;
     font-size: 40px;
     position:relative;
-    bottom:250px;
-    left:750px;
+    bottom:150px;
+    left:700px;
 }
 
 #star3{
     color: white;
     font-size: 35px;
     position: relative;
-    bottom:350px;
-    left:620px;
+    bottom:220px;
+    left:520px;
 }
 #star4{
     color: white;
     font-size: 33px;
     animation: none;
     position:relative;
-    bottom: 180px;
-    left:590px;
+    bottom: 50px;
+    left:490px;
 }
 
 #star5{
@@ -548,8 +549,8 @@ display: block;
     font-size: 15px;
     animation: none;
     position: relative;
-    bottom:330px;
-    left:470px;
+    bottom:230px;
+    left:370px;
 
 }
 
@@ -558,24 +559,24 @@ display: block;
     font-size: 20px;
     animation: none;
     position: relative;
-    bottom:350px;
-    left:420px;
+    bottom:250px;
+    left:320px;
 }
 #star7{
     color: white;
     font-size: 15px;
     animation: none;
     position: relative;
-    bottom:200px;
-    left:570px;
+    bottom:100px;
+    left:470px;
 }
 #star8{
     color: white;
     font-size: 15px;
     animation: none;
     position: relative;
-    bottom:200px;
-    left:430px;
+    bottom:100px;
+    left:330px;
 }
 
 #star9{
@@ -583,8 +584,8 @@ display: block;
     font-size: 20px;
     animation: none;
     position: relative;
-    bottom:170px;
-    left:550px;
+    bottom:70px;
+    left:450px;
 
 }
 #star10{
@@ -592,9 +593,9 @@ display: block;
     font-size: 20px;
     animation: none;
     position: relative;
-    bottom:180px;
+    bottom:80px;
     right:10px;
-    left:350px;
+    left:250px;
 
 }
 #star11{
@@ -602,8 +603,8 @@ display: block;
     font-size: 15px;
     animation: none;
     position: relative;
-    bottom:330px;
-    left:480px;
+    bottom:230px;
+    left:380px;
 
 }
 #star12{
@@ -611,8 +612,8 @@ display: block;
     font-size: 20px;
     animation: none;
     position: relative;
-    bottom:360px;
-    left:480px;
+    bottom:260px;
+    left:380px;
 
 }
 #TropyNextPlayAgain{
@@ -634,7 +635,7 @@ display: block;
 }
 
 .hurray{
-    display: none;
+    display: block;
 }
 
 #youPickedPaper{
