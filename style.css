@@ -430,8 +430,8 @@ display: block;
     transform: scale(5px);
     cursor: pointer; 
     position: relative;
-    left:1200px;
-    bottom: 450px;
+    left:1250px;
+    bottom: 430px;
     font-size: 25px;
     
 }
@@ -450,8 +450,8 @@ display: block;
     line-height: 100%;
     letter-spacing: 10%;
     position: relative;
-    left:1250px;
-    bottom:450px;
+    left:1290px;
+    bottom:430px;
     font-size: 25px;
     text-align: center;
     font-weight: 200 ;
@@ -1060,8 +1060,8 @@ font-size: 45px;
     transform: scale(5px);
     cursor: pointer; 
     position: relative;
-    left:1200px;
-    bottom: 300px;
+    left:1250px;
+    bottom: 420px;
     font-size: 25px;
     /* display: block; */
 }
@@ -1080,8 +1080,8 @@ font-size: 45px;
     line-height: 100%;
     letter-spacing: 10%;
     position: relative;
-    left:1250px;
-    bottom:300px;
+    left:1290px;
+    bottom:420px;
     font-size: 25px;
     font-weight: 200;
     /* display: block; */
@@ -1447,7 +1447,7 @@ transition: transform 0.5s;
     
 }
 
-
+/* 
 body{
     overflow: hidden;
-}
+} */
