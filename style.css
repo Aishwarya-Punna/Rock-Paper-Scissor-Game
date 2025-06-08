@@ -502,7 +502,7 @@ display: block;
     color: #FFD233;
     font-size:100px;
     position: relative;
-    left: 400px;
+    left: 500px;
     align-items: center;
     align-content: center;
     text-align: center;
@@ -514,14 +514,14 @@ display: block;
     animation: none;
     position: relative;
     bottom: 250px;
-    left: 320px;
+    left: 420px;
 }
 #star2{
     color:white;
     font-size: 40px;
     position:relative;
     bottom:250px;
-    left:450px;
+    left:550px;
 }
 
 #star3{
@@ -529,7 +529,7 @@ display: block;
     font-size: 35px;
     position: relative;
     bottom:350px;
-    left:320px;
+    left:420px;
 }
 #star4{
     color: white;
@@ -537,7 +537,7 @@ display: block;
     animation: none;
     position:relative;
     bottom: 180px;
-    left:290px;
+    left:390px;
 }
 
 #star5{
@@ -546,7 +546,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:330px;
-    left:170px;
+    left:270px;
 
 }
 
@@ -556,7 +556,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:350px;
-    left:120px;
+    left:220px;
 }
 #star7{
     color: white;
@@ -564,7 +564,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:200px;
-    left:270px;
+    left:370px;
 }
 #star8{
     color: white;
@@ -572,7 +572,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:200px;
-    left:130px;
+    left:230px;
 }
 
 #star9{
@@ -581,7 +581,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:170px;
-    left:250px;
+    left:350px;
 
 }
 #star10{
@@ -591,7 +591,7 @@ display: block;
     position: relative;
     bottom:180px;
     right:10px;
-    left:50px;
+    left:150px;
 
 }
 #star11{
@@ -600,7 +600,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:330px;
-    left:180px;
+    left:280px;
 
 }
 #star12{
@@ -609,7 +609,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:360px;
-    left:180px;
+    left:280px;
 
 }
 #TropyNextPlayAgain{
@@ -625,7 +625,7 @@ display: block;
     letter-spacing: 10%;
     align-content: center;
     position: relative;
-    left:410px;
+    left:510px;
     top:10px;
     display: block;
 }
@@ -801,6 +801,7 @@ display: block;
     left:620px;
     bottom:400px;
     font-size: 40px;
+    font-weight: 600;
     display: block;
 }
 
