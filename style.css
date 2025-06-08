@@ -478,7 +478,7 @@ display: block;
     font-weight: 500px;
     font-size: 300%;
     position: relative;
-    left:350px;
+    left:850px;
     top: 30px;
     display: block;
 } 
@@ -492,7 +492,7 @@ display: block;
     font-weight: 300px;
     font-size: 135%;
     position: relative;
-    left:350px;
+    left:850px;
     top:10px;
     display: block;
 }
@@ -502,7 +502,7 @@ display: block;
     color: #FFD233;
     font-size:100px;
     position: relative;
-    left: 500px;
+    left: 900px;
     align-items: center;
     align-content: center;
     text-align: center;
@@ -514,14 +514,14 @@ display: block;
     animation: none;
     position: relative;
     bottom: 250px;
-    left: 420px;
+    left: 920px;
 }
 #star2{
     color:white;
     font-size: 40px;
     position:relative;
     bottom:250px;
-    left:550px;
+    left:950px;
 }
 
 #star3{
@@ -529,7 +529,7 @@ display: block;
     font-size: 35px;
     position: relative;
     bottom:350px;
-    left:420px;
+    left:820px;
 }
 #star4{
     color: white;
@@ -537,7 +537,7 @@ display: block;
     animation: none;
     position:relative;
     bottom: 180px;
-    left:390px;
+    left:790px;
 }
 
 #star5{
@@ -546,7 +546,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:330px;
-    left:270px;
+    left:670px;
 
 }
 
@@ -556,7 +556,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:350px;
-    left:220px;
+    left:620px;
 }
 #star7{
     color: white;
@@ -564,7 +564,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:200px;
-    left:370px;
+    left:770px;
 }
 #star8{
     color: white;
@@ -572,7 +572,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:200px;
-    left:230px;
+    left:630px;
 }
 
 #star9{
@@ -581,7 +581,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:170px;
-    left:350px;
+    left:750px;
 
 }
 #star10{
@@ -591,7 +591,7 @@ display: block;
     position: relative;
     bottom:180px;
     right:10px;
-    left:150px;
+    left:550px;
 
 }
 #star11{
@@ -600,7 +600,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:330px;
-    left:280px;
+    left:680px;
 
 }
 #star12{
@@ -609,7 +609,7 @@ display: block;
     animation: none;
     position: relative;
     bottom:360px;
-    left:280px;
+    left:680px;
 
 }
 #TropyNextPlayAgain{
@@ -625,7 +625,7 @@ display: block;
     letter-spacing: 10%;
     align-content: center;
     position: relative;
-    left:510px;
+    left:910px;
     top:10px;
     display: block;
 }
