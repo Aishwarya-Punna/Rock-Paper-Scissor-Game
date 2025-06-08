@@ -251,8 +251,8 @@
 }
 .rulesBox .gameRules{
     display:block;
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     font-size:10px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
