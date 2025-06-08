@@ -344,7 +344,7 @@ display: block;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border: 16px solid orange;
+    border: 16px solid #FFA943;
     margin-top: 110px;
     animation: none;
     font-size:45px;
@@ -417,7 +417,7 @@ display: block;
     align-content: center;
     border: 5px solid white;
     border-radius: 5px;
-    font-weight: 100 bolder;
+    font-weight: 200 ;
     height: 50px;
     width: 120px;
     transform: scale(5px);
@@ -447,6 +447,8 @@ display: block;
     bottom:450px;
     font-size: 25px;
     text-align: center;
+    font-weight: 200 ;
+
 
 }
 
@@ -627,38 +629,38 @@ display: block;
 
 #youPickedPaper{
     background-color:  white;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border: 10px solid orange;
+    border: 16px solid #FFA943;
     margin-top: 110px;
     animation: none;
-    font-size:xx-large;
+    font-size:45px;
     position: relative;
-    left:200px;
-    bottom:110px;
+    left:323px;
+    bottom:50px;
     display: block;
 }
 
 #PcPickedsisscor{
 background-color: white;
-width:70px;
-height: 70px;
+width:140px;
+height: 140px;
 align-items: center;
 text-align: center;
 align-content: center;
 border-radius: 50%;
-border: 10px solid #BD00FF;
+border: 16px solid #BD00FF;
 outline: 15px solid  #3B6720;
-box-shadow: 0 0 0 20px  #1DA82BC9, 0 0 0 25px  #2E9A2563 ; 
+box-shadow: 0 0 0 30px  #1DA82BC9, 0 0 0 45px  #2E9A2563 ; 
 position: relative;
-left:600px;
-bottom:200px;
+left:950px;
+bottom:220px;
 transition: transform 0.3s ease-in-out;
-font-size: xx-large;
+font-size: 45px;
 transition: transform 0.5s;
 display: block;
 }
@@ -670,12 +672,12 @@ display: block;
     letter-spacing: 10%; 
     display: block;
     position: relative;
-    bottom:320px;
-    left:310px;
-    width: 240px;
-    height: 36px;
-    font-weight: 600;
-    font-size: 39px;
+    bottom:410px;
+    left:530px;
+    width: 340px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 60px;
     text-align: center;
     display: block;
     
@@ -688,12 +690,12 @@ display: block;
     letter-spacing: 10%; 
     display: block;
     position: relative;
-    left:305px;
-    width: 245px;
-    bottom:360px;
+    left:550px;
+    width: 300px;
+    bottom:470px;
     height: 36px;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -702,17 +704,18 @@ display: block;
     background-color: white;
     font-family: 'roboto',sans-serif;
     text-align: center;
-    width: 100px;
-    height: 30px;
+    width: 250px;
+    height: 50px;
     border-radius: 5px;
     border: none;
     line-height: 100%;
     letter-spacing: 10%;
     align-content: center;
     position: relative;
-    left:375px;
-    bottom:410px;
+    left:580px;
+    bottom:520px;
     display: block;
+    font-size: 40px;
     
 }
 
@@ -727,36 +730,36 @@ display: block;
 
 #UserPickedRockInTie{
     background-color: white;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border:10px solid rgb(56, 138, 171);
+    border:16px solid #0074B6;
     animation: none;
     position: relative;
-    left:230px;
+    left:323px;
     /* top:10px; */
-    bottom:10px;
-    font-size: xx-large;
+    top:40px;
+    font-size: 45px;
     display: block;
  
 }
 #PcPickedRockInTie{
     background-color: white;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border:10px solid rgb(56, 138, 171);
+    border:16px solid #0074B6;
     animation: none;
     position: relative;
-    left:550px;
-    bottom:110px;
-    font-size: xx-large;
+    left:950px;
+    bottom:150px;
+    font-size: 45px;
     display: block;
 }
 
@@ -766,30 +769,31 @@ display: block;
     line-height: 50%;
     letter-spacing: 10%;
     display: block;
-    width:200px;
-    height:36px;
+    width:250px;
+    height:40px;
     font-weight: 600;
-    font-size: 39px;
+    font-size: 60px;
     text-align: center;
     position: relative;
-    left:330px;
-    bottom:220px;
+    left:590px;
+    bottom:350px;
 }
 #replay{
     color: #252525;
     background-color: white;
     font-family: 'roboto',sans-serif;
     text-align: center;
-    width:100px;
-    height: 30px;
+    width:200px;
+    height: 50px;
     border-radius: 5px;
     border:none;
     line-height: 100%;
     letter-spacing: 10%;
     display: block;
     position: relative;
-    left:380px;
-    bottom:260px;
+    left:620px;
+    bottom:400px;
+    font-size: 40px;
     display: block;
 }
 
@@ -803,39 +807,41 @@ display: block;
 
 #UserPickedRock{
 background-color: white;
-width:70px;
-height: 70px;
+width:140px;
+height: 140px;
 align-items: center;
 text-align: center;
 align-content: center;
 border-radius: 50%;
-border: 10px solid #BD00FF;
+border: 16px solid #0074B6;
 outline: 15px solid  #3B6720;
-box-shadow: 0 0 0 20px  #1DA82BC9, 0 0 0 25px  #2E9A2563 ; 
+box-shadow: 0 0 0 30px  #1DA82BC9, 0 0 0 45px  #2E9A2563 ; 
 position: relative;
-left:190px;
-top:40px;
+left:323px;
+top:150px;
 /* animation: none;  */
 transition: transform 0.3s ease-in-out;
 font-size: xx-large;
 display: block;
+font-size: 45px;
 }
 
 #PcPickedScissor{
     background-color:  white;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border: 10px solid orange;
+    border: 16px solid #BD00FF;
     margin-top: 110px;
     animation: none;
     font-size:xx-large;
     position: relative;
-    left:600px;
-    bottom: 160px;
+    left:950px;
+    bottom: 150px;
+    font-size: 45px;
 }
 
 .YouWinAgainstPC1 h3{
@@ -845,12 +851,12 @@ display: block;
     letter-spacing: 10%;
     display: block;
     position: relative;
-    left:350px;
-    bottom:280px;
-    width: 183px;
+    left:590px;
+    bottom:360px;
+    width: 290px;
     height: 36px;
-    font-weight: 600;
-    font-size: 39px;
+    font-weight: 700;
+    font-size: 60px;
     text-align: center;
     display: block;
 }
@@ -862,12 +868,12 @@ display: block;
     letter-spacing: 10%;
     display: block;
     position: relative;
-    left:320px;
-    bottom:320px;
-    width: 250px;
+    left:590px;
+    bottom:415px;
+    width: 290px;
     height: 36px;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 45px;
     text-align: center;
     display: block;
     
@@ -877,16 +883,17 @@ display: block;
     background-color: white;
     font-family: 'roboto',sans-serif;
     text-align: center;
-    width: 100px;
-    height: 30px;
+    width: 250px;
+    height: 50px;
     border-radius: 5px;
     border: none;
     line-height: 100%;
     letter-spacing: 10%;
     position: relative;
-    left:390px;
-    bottom:360px;
+    left:620px;
+    bottom:470px;
     display: block;
+    font-size: 40px;
 }
 
 #winPlayAgain1:hover{
@@ -899,15 +906,16 @@ display: block;
     text-align: center;
     align-items: center;
     align-content: center;
-    border: 2px solid white;
+    border: 5px solid white;
     border-radius: 5px;
-    font-weight: 100 bolder;
-    height: 30px;
+    font-weight: 200;
+    height: 50px;
     transform: scale(5px);
     cursor: pointer; 
     position: relative;
-    left:700px;
-    bottom: 360px;
+    left:1200px;
+    bottom: 450px;
+    font-size: 25px;
     /* display: block; */
 }
 
@@ -917,16 +925,18 @@ display: block;
 }
 #next1{
     color: white;
-    border: 2px solid white;
+    border: 5px solid white;
     text-align: center;
-    width:50px;
-    height: 30px;
+    width:100px;
+    height: 50px;
     border-radius: 5px;
     line-height: 100%;
     letter-spacing: 10%;
     position: relative;
-    left:730px;
-    bottom:360px;
+    left:1250px;
+    bottom:450px;
+    font-size: 25px;
+    font-weight: 200;
     /* display: block; */
 }
 
@@ -940,37 +950,37 @@ display: block;
 
 #UserPickedPaper{
 background-color: white;
-width:70px;
-height: 70px;
+width:140px;
+height:140px;
 align-items: center;
 text-align: center;
 align-content: center;
 border-radius: 50%;
-border: 10px solid orange;
+border: 16px solid #FFA943;
 outline: 15px solid  #3B6720;
-box-shadow: 0 0 0 20px  #1DA82BC9, 0 0 0 25px  #2E9A2563 ;
+box-shadow: 0 0 0 30px  #1DA82BC9, 0 0 0 45px  #2E9A2563 ;
 position: relative;
-left:190px;
-top:40px;
+left:323px;
+top:150px;
 transition: transform 0.3s ease-in-out;
-font-size: xx-large;
 display: block;
+font-size: 45px;
 }
 #PcPickedRock{
     background-color:  white;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border: 10px solid rgb(56, 138, 171);
-    /* margin-top: 110px; */
+    border: 16px solid #0074B6;
     animation: none;
-    font-size:xx-large;
+    font-size:45px;
     position: relative;
-    left:570px;
-    bottom: 50px;
+    left:950px;
+    /* top:400px; */
+    /* bottom: 30px; */
     display: block;
 }
 .YouWinAgainstPC2 h3{
@@ -980,12 +990,12 @@ display: block;
     letter-spacing: 10%;
     display: block;
     position: relative;
-    left:350px;
-    bottom:190px;
-    width: 183px;
+    left:590px;
+    bottom:250px;
+    width: 290px;
     height: 36px;
-    font-weight: 600;
-    font-size: 39px;
+    font-weight: 700;
+    font-size: 60px;
     text-align: center;
     display: block;
 }
@@ -997,12 +1007,12 @@ display: block;
     letter-spacing: 10%;
     display: block;
     position: relative;
-    left:320px;
-    bottom:220px;
-    width: 250px;
+    left:590px;
+    bottom:300px;
+    width: 290px;
     height: 36px;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 45px;
     text-align: center;
     display: block;
     
@@ -1012,15 +1022,16 @@ display: block;
     background-color: white;
     font-family: 'roboto',sans-serif;
     text-align: center;
-    width: 100px;
-    height: 30px;
+    width: 250px;
+    height: 50px;
     border-radius: 5px;
     border: none;
     line-height: 100%;
     letter-spacing: 10%;
     position: relative;
-    left:390px;
-    bottom:260px;
+    left:620px;
+    bottom:350px;
+    font-size: 40px;
     display: block;
 }
 
@@ -1034,15 +1045,17 @@ display: block;
     text-align: center;
     align-items: center;
     align-content: center;
-    border: 2px solid white;
+    border: 5px solid white;
     border-radius: 5px;
-    font-weight: 100 bolder;
-    height: 30px;
+    font-weight: 200;
+    height: 50px;
+    width: 120px;
     transform: scale(5px);
     cursor: pointer; 
     position: relative;
-    left:700px;
+    left:1200px;
     bottom: 250px;
+    font-size: 25px;
     /* display: block; */
 }
 
@@ -1052,16 +1065,18 @@ display: block;
 }
 #next2{
     color: white;
-    border: 2px solid white;
+    border: 5px solid white;
     text-align: center;
-    width:50px;
-    height: 30px;
+    width:100px;
+    height: 50px;
     border-radius: 5px;
     line-height: 100%;
     letter-spacing: 10%;
     position: relative;
-    left:730px;
+    left:1250px;
     bottom:250px;
+    font-size: 25px;
+    font-weight: 200;
     /* display: block; */
 }
 
@@ -1075,36 +1090,37 @@ display: block;
 
 #YouPickedScissorInTie{
    background-color: white;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border:10px solid rgb(56, 138, 171);
+    border:16px solid #BD00FF;
     animation: none;
     position: relative;
-    left:220px;
-    bottom:10px;
-    font-size:xx-large;
+    left:323px;
+    top:40px;
     display: block;
+    font-size: 45px;
  
 }
 #PcPickedScissorInTie{
     background-color: white;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border:10px solid rgb(56, 138, 171);
+    border:16px solid #BD00FF;
     animation: none;
     position: relative;
-    left:550px;
-    bottom:120px;
+    left:950px;
+    bottom:150px;
     font-size:xx-large;
     display: block;
+    font-size: 45px;
 
 }
 .tie2 h3{
@@ -1113,30 +1129,32 @@ display: block;
     line-height: 50%;
     letter-spacing: 10%;
     display: block;
-    width:200px;
-    height:36px;
+    width:250px;
+    height:40px;
     font-weight: 600;
-    font-size: 39px;
+    font-size: 60px;
     text-align: center;
     position: relative;
-    left:330px;
-    bottom:220px;
+    left:590px;
+    bottom:350px;
 }
 #replay2{
     color: #252525;
     background-color: white;
     font-family: 'roboto',sans-serif;
     text-align: center;
-    width:100px;
-    height: 30px;
+    width:200px;
+    height: 50px;
     border-radius: 5px;
     border:none;
     line-height: 100%;
     letter-spacing: 10%;
     display: block;
     position: relative;
-    left:380px;
-    bottom:260px;
+    left:620px;
+    bottom:390px;
+    font-size: 40px;
+    font-weight: 600;
     display: block;
 }
 #replay2:hover{
@@ -1148,35 +1166,35 @@ display: block;
 }
 #YouPickedPaperInTie{
     background-color: white;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border:10px solid orange;
+    border:16px solid #FFA943;
     animation: none;
     position: relative;
-    left:220px;
-    bottom:20px;
-    font-size:xx-large;
+    left:323px;
+    top:40px;
+    font-size:45px;
     display: block;
  
 }
 #PcPickedPaperInTie{
     background-color: white;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border:10px solid orange;
+    border:16px solid #FFA943;
     animation: none;
     position: relative;
-    left:550px;
-    bottom:120px;
-    font-size:xx-large;
+    left:950px;
+    bottom:150px;
+    font-size:45px;
     display: block;
 
 }
@@ -1186,31 +1204,32 @@ display: block;
     line-height: 50%;
     letter-spacing: 10%;
     display: block;
-    width:200px;
-    height:36px;
+    width:250px;
+    height:40px;
     font-weight: 600;
-    font-size: 39px;
+    font-size: 60px;
     text-align: center;
     position: relative;
-    left:330px;
-    bottom:230px;
+    left:590px;
+    bottom:350px;
 }
 #replay3{
     color: #252525;
     background-color: white;
     font-family: 'roboto',sans-serif;
     text-align: center;
-    width:100px;
-    height: 30px;
+    width:200px;
+    height: 50px;
     border-radius: 5px;
     border:none;
     line-height: 100%;
     letter-spacing: 10%;
     display: block;
     position: relative;
-    left:380px;
-    bottom:270px;
+    left:620px;
+    bottom:390px;
     display: block;
+    font-size: 45px;
 }
 #replay3:hover{
     transform: scale(1.1);
@@ -1223,38 +1242,38 @@ display: block;
 
 #UserPickedScissorInLost{
     background-color:  white;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border: 10px solid orange;
+    border: 16px solid #BD00FF;
     margin-top: 110px;
     animation: none;
-    font-size:xx-large;
+    font-size:45px;
     position: relative;
-    left:210px;
-    bottom:110px;
+    left:323px;
+    bottom:50px;
     display: block;
 }
 
 #PcPickedRockInLost{
 background-color: white;
-width:70px;
-height: 70px;
+width:140px;
+height: 140px;
 align-items: center;
 text-align: center;
 align-content: center;
 border-radius: 50%;
-border: 10px solid rgb(56, 138, 171);
+border: 16px solid #0074B6;
 outline: 15px solid  #3B6720;
-box-shadow: 0 0 0 20px  #1DA82BC9, 0 0 0 25px  #2E9A2563 ; 
+box-shadow: 0 0 0 30px  #1DA82BC9, 0 0 0 45px  #2E9A2563 ; 
 position: relative;
-left:570px;
-bottom:200px;
+left:950px;
+bottom:220px;
 transition: transform 0.3s ease-in-out;
-font-size: xx-large;
+font-size: 45px;
 transition: transform 0.5s;
 display: block;
 }
@@ -1266,12 +1285,12 @@ display: block;
     letter-spacing: 10%; 
     display: block;
     position: relative;
-    bottom:320px;
-    left:300px;
-    width: 225px;
-    height: 36px;
-    font-weight: 600;
-    font-size: 39px;
+    bottom:420px;
+    left:510px;
+    width: 350px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 60px;
     text-align: center;
     display: block;
     
@@ -1284,13 +1303,12 @@ display: block;
     letter-spacing: 10%; 
     display: block;
     position: relative;
-    bottom:50px;
-    left:300px;
-    width: 215px;
-    bottom:360px;
+    bottom:485px;
+    left:540px;
+    width: 290px;
     height: 36px;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 45px;
     text-align: center;
     display: block;
 }
@@ -1300,16 +1318,17 @@ display: block;
     background-color: white;
     font-family: 'roboto',sans-serif;
     text-align: center;
-    width: 100px;
-    height: 30px;
+    width: 250px;
+    height: 50px;
     border-radius: 5px;
     border: none;
     line-height: 100%;
     letter-spacing: 10%;
     align-content: center;
     position: relative;
-    left:360px;
-    bottom:405px;
+    left:565px;
+    bottom:540px;
+    font-size: 40px;
     display: block;
     
 }
@@ -1324,37 +1343,37 @@ display: block;
 
 #UserPickedRockInLost{
     background-color:  white;
-    width: 70px;
-    height: 70px;
+    width: 140px;
+    height: 140px;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 50%;
-    border: 10px solid rgb(56, 138, 171);
+    border: 16px solid #0074B6;
     margin-top: 110px;
     animation: none;
-    font-size:xx-large;
+    font-size:45px;
     position: relative;
-    left:200px;
-    bottom:110px;
+    left:323px;
+    bottom: 60px;
 }
 
 #PcPickedPaperInLost{
 background-color: white;
-width:70px;
-height: 70px;
+width:140px;
+height: 140px;
 align-items: center;
 text-align: center;
 align-content: center;
 border-radius: 50%;
-border: 10px solid orange;
+border: 16px solid #FFA943;
 outline: 15px solid  #3B6720;
-box-shadow: 0 0 0 20px  #1DA82BC9, 0 0 0 25px  #2E9A2563 ; 
+box-shadow: 0 0 0 30px  #1DA82BC9, 0 0 0 45px  #2E9A2563 ; 
 position: relative;
-left:500px;
-bottom:110px;
+left:880px;
+bottom:60px;
 transition: transform 0.3s ease-in-out;
-font-size: xx-large;
+font-size: 45px;
 transition: transform 0.5s;
 }
 
@@ -1365,12 +1384,12 @@ transition: transform 0.5s;
     letter-spacing: 10%; 
     display: block;
     position: relative;
-    bottom:230px;
-    left:310px;
-    width: 240px;
+    bottom:300px;
+    left:570px;
+    width: 350px;
     height: 36px;
     font-weight: 600;
-    font-size: 39px;
+    font-size: 60px;
     text-align: center;
     display: block;
     
@@ -1383,13 +1402,12 @@ transition: transform 0.5s;
     letter-spacing: 10%; 
     display: block;
     position: relative;
-    bottom:50px;
-    left:305px;
-    width: 245px;
-    bottom:265px;
+    bottom: 350px;
+    left:595px;
+    width: 290px;
     height: 36px;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 45px;
     text-align: center;
     display: block;
 }
@@ -1399,17 +1417,18 @@ transition: transform 0.5s;
     background-color: white;
     font-family: 'roboto',sans-serif;
     text-align: center;
-    width: 100px;
-    height: 30px;
+    width: 250px;
+    height: 50px;
     border-radius: 5px;
     border: none;
     line-height: 100%;
     letter-spacing: 10%;
     align-content: center;
     position: relative;
-    left:375px;
-    bottom:310px;
+    left:620px;
+    bottom:400px;
     display: block;
+    font-size: 40px;
     
 }
 
