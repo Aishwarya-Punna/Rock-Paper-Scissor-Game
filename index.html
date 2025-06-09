@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock_Paper_Scissor</title>
+    
+
+    <link rel="stylesheet" href="style.css" Content-type="text/css">
+
+   
+
+</head>
+<body> 
+    <div class="total">
+    
+        <div class="header">
+            
+                <p id="p1">ROCK<br>PAPER<br>SCISSORS</p>
+            
+            <div class="box1">
+                <p>COMPUTER<br>SCORE</p>
+                <input type="numbers" id="scoreOfComp" type="value" placeholder="0"><b></b>
+            </div>
+            
+            <div class="box2">
+                <p >YOUR<br>SCORE</p> 
+                <input type="numbers" id="YourScore" placeholder="0"><b></b>
+            </div>
+        </div>   
+        
+    
+    
+    <br>
+    <br>
+    <div class="gameSetUp">
+    <div class="gameSetUpExceptRules">
+    <i class="fa-solid fa-hand-back-fist fa-beat" onclick="userChoose('rock')" id="rock" title="Rock" aria-label="Rock"></i>
+
+
+    <i class="fa-solid fa-hand-peace fa-beat" onclick="userChoose('scissor')" id="scissor"  title="Scissor" aria-label="Scissor"></i>
+
+    <i class="fa-solid fa-hand-scissors fa-beat-fade" onclick="userChoose('scissor')" id="scissor"  title="Scissor" aria-label="Scissor"></i>
+
+    <br>
+    <i class="fa-solid fa-hand fa-beat" onclick="userChoose('paper')" id="paper" title="Paper" aria-label="Paper"></i>
+ 
+    <br> 
+
+    
+
+    <div id="rectConnection"> </div>
+    <div id="rectConn2"></div> 
+    
+    <div id="rectConn3"></div>
+
+    <div id="rectConn4"></div>
+    <div id="rectConn5"></div>
+    <div id="rectConn6"></div>
+    </div>
+   <button id="rules" title=Rules>RULES</button><br>
+    <br> 
+    </div>
+    <div class="rulesBox">
+        <div class="close"  >
+        <button > <i class="fa-solid fa-xmark fa-beat" id="close" aria-hidden="true" ></i></button>
+        </div>
+    <div class="gameRules">
+        <h2> Game Rules</h2>
+        <ul>
+            <li>Rock beats scissors, scissor beat paper, and paper beats rock.</li>
+            <li>Agree ahead of time whether you'll count off "rock, paper, scissors, shoot" or just "rock, paper, scissors".</li>
+            <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time.</li>
+            <li>If both players lay down the same hand, each player lays down another hand.</li>
+        </ul>
+    </div>
+    </div>
+    <br>
+    
+    <div class="win">
+
+
+        <i class="fa-solid fa-hand-peace fa-beat" id="UserPickedRockInUSerWinCase"  title="Sisscor" aria-label="Sisscor"></i>
+
+        <br>
+        <i class="fa-solid fa-hand fa-beat" id="PcPickedPaperInUSerWinCase" title="Paper" aria-label="Paper"></i>
+        <h3>YOU WIN</h3>
+        <h5>AGAINST PC</h5>
+        <button id="winPlayAgain" title=PlayAgain> PLAY AGAIN</button>
+        <br>
+        <button id="winRules" title=Rules>RULES</button>
+        <button id="next">NEXT</button>
+        
+    </div>
+    <div class="YouWinAgainstPC1">
+            <i class="fa-solid fa-hand-back-fist fa-beat"  id="UserPickedRock"  title="Rock" aria-label="Rock"></i>
+            <i class="fa-solid fa-hand-peace fa-beat" id="PcPickedScissor" title="Sisscor" aria-label="Sisscor"></i>
+            <h3>YOU WIN</h3>
+            <h5>AGAINST PC</h5>
+            <button id="winPlayAgain1" title=PlayAgain> PLAY AGAIN</button>
+            <br>
+            <button id="winRules1" title=Rules>RULES</button>
+            <button id="next1">NEXT</button>
+    </div>
+    <div class="YouWinAgainstPC2">
+            <i class="fa-solid fa-hand fa-beat" id="UserPickedPaper" title="Paper" aria-label="Paper"></i>
+            <i class="fa-solid fa-hand-back-fist fa-beat"  id="PcPickedRock"  title="Rock" aria-label="Rock"></i>
+            <h3>YOU WIN</h3>
+            <h5>AGAINST PC</h5>
+            <button id="winPlayAgain2" title=PlayAgain> PLAY AGAIN</button>
+            <br>
+            <button id="winRules2" title=Rules>RULES</button>
+            <button id="next2">NEXT</button>
+    </div>
+    
+    <div class="lost">
+        <i class="fa-solid fa-hand fa-beat" id="youPickedPaper" title="Paper" aria-label="Paper"></i>
+        <i class="fa-solid fa-hand-peace fa-beat"  id="PcPickedsisscor"  title="Sisscor" aria-label="Sisscor"></i>
+        <h3>YOU LOST</h3>
+        <h5>AGAINST PC</h5>
+        <button id="LostPlayAgain" title=PlayAgain> PLAY AGAIN</button>
+    </div>
+
+    <div class="lost2">
+        <i class="fa-solid fa-hand-peace fa-beat" id="UserPickedScissorInLost" title="Sisscor" aria-label="Sisscor"></i>
+        <i class="fa-solid fa-hand-back-fist fa-beat"  id="PcPickedRockInLost"  title="Rock" aria-label="Rock"></i>
+        <h3>YOU LOST</h3>
+        <h5>AGAINST PC</h5>
+        <button id="LostPlayAgain2" title=PlayAgain> PLAY AGAIN</button>
+    </div>
+
+    <div class="lost3">
+        <i class="fa-solid fa-hand-back-fist fa-beat" id="UserPickedRockInLost" title="Rock" aria-label="Rock"></i>
+        <i class="fa-solid fa-hand fa-beat"  id="PcPickedPaperInLost"  title="Paper" aria-label="Paper"></i>
+        <h3>YOU LOST</h3>
+        <h5>AGAINST PC</h5>
+        <button id="LostPlayAgain3" title=PlayAgain> PLAY AGAIN</button>
+    </div>
+    <div class="tie">
+        <i class="fa-solid fa-hand-back-fist fa-beat" id="UserPickedRockInTie" title="Rock" aria-label="Rock"></i>
+        <br>
+        <i class="fa-solid fa-hand-back-fist fa-beat" id="PcPickedRockInTie" title="Rock" aria-label="Rock"></i>
+        <h3>TIE UP</h3>
+        <button id="replay">REPLAY</button>
+    </div>
+    <div class="tie2">
+        <i class="fa-solid fa-hand-peace fa-beat" id="YouPickedScissorInTie" title="Sisscor" aria-label="Sisscor"></i>
+        <br>
+        <i class="fa-solid fa-hand-peace fa-beat" id="PcPickedScissorInTie" title="Sisscor" aria-label="Sisscor"></i>
+        <h3>TIE UP</h3>
+        <button id="replay2">REPLAY</button>
+    </div>
+    <div class="tie3">
+        <i class="fa-solid fa-hand fa-beat" id="YouPickedPaperInTie" title="Paper" aria-label="Paper"></i>
+        <br>
+        <i class="fa-solid fa-hand fa-beat" id="PcPickedPaperInTie" title="Paper" aria-label="Paper"></i>
+        <h3>TIE UP</h3>
+        <button id="replay3">REPLAY</button>
+    </div>
+    <br>
+    <div class="hurray">
+    <i class="fa-solid fa-trophy" id="tropy"></i>
+    <p id="hurray">HURRAY!!</p>
+    <p id="ywtg">YOU WON THE GAME</p>
+    <button id="TropyNextPlayAgain" title=PlayAgain> PLAY AGAIN</button>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star1" title="Star" aria-label="Star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star2" title="Star" aria-label="Star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star3" title="Star" aria-label="Star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star4" title="Star" aria-label="Star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star5" title="Star" aria-label="Star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star6" title="Star" aria-label="Star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star7" title="Star" aria-label="Star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star8" title="Star" aria-label="Star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star9" title="Star" aria-label="Star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star10" title="Star" aria-label="Star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star11" title="Star" aria-label="Star"></i>
+    <i class="fa-sharp-duotone fa-solid fa-star" id="star12" title="Star" aria-label="Star"></i>
+   
+    <br>
+    </div>
+    
+
+    <script src="index.js" Content-type="text/javascript"></script>
+
+
+    <script src="https://kit.fontawesome.com/04bb3c6646.js" crossorigin="anonymous"></script>
+</div>
+</body>
+</html>
